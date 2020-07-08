@@ -1,3 +1,4 @@
+
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -27,6 +28,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
@@ -58,7 +62,6 @@ build/Release
 
 # Dependency directories
 node_modules/
-example/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
