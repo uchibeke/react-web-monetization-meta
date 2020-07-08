@@ -2,3 +2,18 @@ language: node_js
 node_js:
   - 12
   - 10
+before_deploy: 'npm version patch -m "Bumping to %s"'
+deploy:
+  provider: npm
+  email: '$NPM_EMAIL'
+  api_key: '$NPM_TOKEN'
+  skip_cleanup: true
+  on:
+    branch: master
+
+notifications:
+  email:
+    recipients:
+      - uchi.uchibeke@gmail.com
+    on_success: change
+    on_failure: always
