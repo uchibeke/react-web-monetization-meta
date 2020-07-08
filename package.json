@@ -1,10 +1,10 @@
 {
   "name": "react-webmonetization-meta",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Web monetization for React apps",
-  "author": "uchibeke",
+  "author": "uchi4jah",
   "license": "MIT",
-  "repository": "uchibeke",
+  "repository": "uchibeke/react-webmonetization-meta",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -63,8 +63,5 @@
   "dependencies": {
     "@types/react-helmet": "^6.0.0",
     "react-helmet": "^6.1.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
