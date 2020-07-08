@@ -2,7 +2,7 @@
 
 > Web monetization for React apps:
 > This reusable React component will add a custom Web Monetization payment pointer to the document head.
-> React Web Monetization takes a Payment pointer and outputs plain HTML Web monitization meta tag. It's dead simple, and React beginner friendly.
+> React Web Monetization takes a Payment pointer and outputs plain HTML Web monetization meta tag. It's dead simple, and React beginner friendly.
 
 [![NPM](https://img.shields.io/npm/v/react-webmonetization-meta.svg)](https://www.npmjs.com/package/react-webmonetization-meta) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![CLA assistant](https://cla-assistant.io/readme/badge/uchibeke/react-webmonetization-meta)](https://cla-assistant.io/uchibeke/react-webmonetization-meta)
